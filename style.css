@@ -1,0 +1,56 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    top: 0;
+}
+
+
+.px-3 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.body {
+    background-color: green;
+    color: red;
+}
+
+.aside {
+    background-color: black;
+    color: wheat;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* mobile only css */
+@media screen and (max-width: 500px) {
+    .aside {
+        display: none;
+    }
+}
+
