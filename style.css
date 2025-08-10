@@ -1,0 +1,37 @@
+p {
+  color: green;
+  font-size: 22px;
+}
+
+/* Default styles */
+body {
+  background-color: white;
+  font-size: 16px;
+}
+
+/* If screen width is 600px or less */
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+    font-size: 14px;
+  }
+}
+
+/* Mobile first approach */
+p {
+  font-size: 14px;
+}
+
+/* Tablet and above */
+@media (min-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+/* Desktop and above */
+@media (min-width: 1024px) {
+  p {
+    font-size: 18px;
+  }
+}
